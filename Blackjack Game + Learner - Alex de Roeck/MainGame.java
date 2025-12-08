@@ -15,6 +15,11 @@ public class MainGame extends World
         System.out.println("-------------------- GAME START --------------------");
         System.out.println();
         
+        //  TESTING
+        //System.out.println(deck.getUnusedCards());
+        //deck.shuffleDeck();
+        //System.out.println(deck.getUnusedCards());
+        
         //  Making objects such as buttons and boxes --------------------------------
         
         MoneyBox moneyBox = new MoneyBox();

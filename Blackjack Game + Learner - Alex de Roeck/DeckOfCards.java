@@ -118,6 +118,11 @@ public class DeckOfCards extends Actor
         //-----------------------------------------------------------
     }
 
+    //  FOR TESTING
+    public ArrayList<Card> getUnusedCards(){
+        return this.unusedCards;
+    }
+    
     // UNUSED CODE BELOW -----------------------------------------------------------------------------------------------------------------
 
     public void UNUSED_CODE1(){
