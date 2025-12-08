@@ -14,35 +14,43 @@ public class MainGame extends World
         System.out.println();
         System.out.println("-------------------- GAME START --------------------");
         System.out.println();
+
+        /*  TESTING
+        System.out.println(deck.getUnusedCards());
+        System.out.println("Card Value = " + deck.dealCard().getCardValue());
+        deck.shuffleDeck();
+        System.out.println(deck.getUnusedCards());
+        System.out.println("Card Value = " + deck.dealCard().getCardValue());
+         */
+
+        System.out.println(player.getPlayerTurn());
+        player.setPlayerTurn(true);
+        System.out.println(player.getPlayerTurn());
         
-        //  TESTING
-        //System.out.println(deck.getUnusedCards());
-        //deck.shuffleDeck();
-        //System.out.println(deck.getUnusedCards());
-        
-        //  Making objects such as buttons and boxes --------------------------------
-        
+
+            //  Making objects such as buttons and boxes --------------------------------
+
         MoneyBox moneyBox = new MoneyBox();
         addObject(moneyBox, 1052, 586);
-        
+
         TotalValueCounter hand1Counter = new TotalValueCounter(hand1);
         addObject(hand1Counter, 500, 500);
-        
+
         TotalValueCounter dealerHandCounter = new TotalValueCounter(dealer);
         addObject(dealerHandCounter, 695, 190);
-        
+
         TotalValueCounter playerMoney = new TotalValueCounter(player);
         addObject(playerMoney, 1052, 584);
-        
+
         TotalValueCounter totalBet = new TotalValueCounter(player, true);
         addObject(totalBet, 495, 540);
-        
+
         DealButton dealButton = new DealButton();
         addObject(dealButton, 305, 560);
-        
+
         ResetButton resetButton = new ResetButton();
         addObject(resetButton, 305, 645);
-        
+
         HitButton hitButton = new HitButton();
         addObject(hitButton, 690, 650);
 
@@ -54,31 +62,27 @@ public class MainGame extends World
 
         SplitButton splitButton = new SplitButton();
         addObject(splitButton, 1125, 650);
-        
-        
+
         //  CHIPS ------------------------------------------------
-        
         PokerChip1 chip1 = new PokerChip1();
         addObject(chip1, 50, 560);
-        
+
         PokerChip5 chip5 = new PokerChip5();
         addObject(chip5, 125, 560);
-        
+
         PokerChip10 chip10 = new PokerChip10();
         addObject(chip10, 200, 560);
-        
+
         PokerChip25 chip25 = new PokerChip25();
         addObject(chip25, 50, 645);
-        
+
         PokerChip100 chip100 = new PokerChip100();
         addObject(chip100, 125, 645);
-        
+
         PokerChip200 chip200 = new PokerChip200();
         addObject(chip200, 200, 645);
 
-        
         //  BACKGROUND ------------------------------------------------
-        
         GreenfootImage image = getBackground();
         image.scale(1205, 700);
         setBackground(image);
@@ -87,10 +91,10 @@ public class MainGame extends World
         //deck.shuffleDeck();
         //dealer.startDealer(this);
         //hand1.startHand(this);
-        
+
         //gameStart();
         //playerTurn();
-        
+
     }
 
     public void gameStart(){
@@ -109,15 +113,13 @@ public class MainGame extends World
         dealer.setDealerTurn(true);
     }
 
-    
     public void displayEndGameInfo()
     {
         InformationOutputter infoOutter = new InformationOutputter(this);
         addObject(infoOutter, 600, 350);
         player.emptyBet();
     }
-    
-    
+
     public DeckOfCards getDeck()
     {
         return deck;
@@ -127,7 +129,7 @@ public class MainGame extends World
     {
         return player;
     }
-    
+
     public Dealer getDealer()
     {
         return dealer;

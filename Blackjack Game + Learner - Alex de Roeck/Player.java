@@ -37,7 +37,7 @@ public class Player extends Actor
         this.lastHand = value;
     }
 
-    public Boolean getPlayerTurn (){
+    public Boolean getPlayerTurn(){
         return(this.isTurn);
     }
 
