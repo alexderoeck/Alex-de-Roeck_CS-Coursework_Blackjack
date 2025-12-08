@@ -87,7 +87,6 @@ public class Hand extends Actor
 
     public void checkHandStatus(){
         if (this.handTotal >= 22){
-
             this.handLost = true;
         }
         else{

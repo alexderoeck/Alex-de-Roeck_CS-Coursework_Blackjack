@@ -14,21 +14,37 @@ public class MainGame extends World
         System.out.println();
         System.out.println("-------------------- GAME START --------------------");
         System.out.println();
-
+        
+        
         /*  TESTING
         System.out.println(deck.getUnusedCards());
         System.out.println("Card Value = " + deck.dealCard().getCardValue());
         deck.shuffleDeck();
         System.out.println(deck.getUnusedCards());
         System.out.println("Card Value = " + deck.dealCard().getCardValue());
-         */
 
         System.out.println(player.getPlayerTurn());
         player.setPlayerTurn(true);
         System.out.println(player.getPlayerTurn());
         
-
-            //  Making objects such as buttons and boxes --------------------------------
+        System.out.println("Hand total is: " + hand1.getHandTotal());
+        
+        System.out.println("Dealer hand total is: " + dealer.getHandTotal());
+        System.out.println("The dealer isTurn attribute is currently: " + dealer.getDealerTurn());
+        
+        
+        System.out.println("Balance: " + player.getPlayerMoney());
+        System.out.println("Total Bet: " + player.getTotalBet());
+        
+        PokerChip200 chip200 = new PokerChip200();
+        chip200.pressed();
+        
+        System.out.println("Balance: " + player.getPlayerMoney());
+        System.out.println("Total Bet: " + player.getTotalBet());
+        */
+        
+        
+        //  Making objects such as buttons and boxes --------------------------------
 
         MoneyBox moneyBox = new MoneyBox();
         addObject(moneyBox, 1052, 586);
