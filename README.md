@@ -4,8 +4,9 @@
   <h3><em>Working Title: 'Blackjack Game + Learner'</em></h3>
 </div>
 
-<br><br>
+<br>
 
-My College Coursework for my Computer Science A level: Blackjack Game, coded in Greenfoot in Java. Please see the attached PDF of my project write up.
+<strong>My College Coursework for my Computer Science A level:</strong>
+Blackjack Game, coded in Greenfoot in Java. <i>Please see the attached PDF of my project write up.</i>
 <br><br>
 <strong>Files:</strong> PDF of my Word Document write-up and my Greenfoot code folder.
