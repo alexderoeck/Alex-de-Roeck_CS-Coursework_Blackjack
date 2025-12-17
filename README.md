@@ -6,6 +6,6 @@
 
 <br><br>
 
-My College Coursework for my Computer Science A level: Blackjack Game, coded in Greenfoot in Java.
+My College Coursework for my Computer Science A level: Blackjack Game, coded in Greenfoot in Java. Please see the attached PDF of my project write up.
 <br><br>
-<strong>Files:</strong> PDF of my Word Document write-up (old version - finished version to be added soon) and my Greenfoot code folder
+<strong>Files:</strong> PDF of my Word Document write-up and my Greenfoot code folder.
