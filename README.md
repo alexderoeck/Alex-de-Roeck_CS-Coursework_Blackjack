@@ -1,6 +1,6 @@
 <div align="center">
   <h1><strong>--- Alex de Roeck ---</strong></h1>
-  <h2><strong>CS Coursework</strong></h2>
+  <h2><strong>A Level Computer Science Coursework</strong></h2>
   <h3><em>Working Title: 'Blackjack Game + Learner'</em></h3>
 </div>
 
