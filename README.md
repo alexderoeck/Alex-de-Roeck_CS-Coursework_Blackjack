@@ -39,3 +39,6 @@ Due to time constraints (a planning oversight around the dealer's turn and overa
 
 **Files:** PDF of my Word Document write-up, my Greenfoot code folder, testing screen recordings (ZIP file).
 </div>
+
+---
+*README summarised and drafted with help from Claude (Anthropic), based on my own write-up documents.*
