@@ -1,10 +1,9 @@
 <div align="center">
 
-# --- Alex de Roeck ---
+# No Name Blackjack Game
+### A Level Computer Science Coursework — Alex de Roeck
 
-## A Level Computer Science Coursework
-
-### Project Title: 'Blackjack Game & Learner'
+*Working Title: 'Blackjack Game & Learner'*
 
 </div>
 <div align="left">
